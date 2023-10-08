@@ -11,13 +11,13 @@ jobs:
     
     steps:
       . name: Hello step
-        run : echo "hello fro github actions!"
+      run : echo "hello from github actions!"
 
   bye:
     runs-on: ubuntu latest
 
     steps:
       . name: Bye step
-        run : echo "Bye bye!"
+      run : echo "Bye bye!"
 
       
