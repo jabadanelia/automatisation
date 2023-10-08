@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu latest
     
     steps:
-      . name: Hello step
-      run : echo "hello from github actions!"
+      - name: Hello step
+        run : echo "hello from github actions!"
 
   bye:
     runs-on: ubuntu latest
 
     steps:
-      . name: Bye step
-      run : echo "Bye bye!"
+      - name: Bye step
+        run : echo "Bye bye!"
 
       
