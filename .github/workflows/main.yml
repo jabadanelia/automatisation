@@ -1,0 +1,23 @@
+name: myAutomatisation
+
+on:
+  push:
+    branches: [ "main","test" ]
+
+
+jobs:
+  hello:
+    runs-on: ubuntu latest
+    
+    steps:
+      . name: Hello step
+        run : echo "hello fro github actions!"
+
+  bye:
+    runs-on: ubuntu latest
+
+    steps:
+      . name: Bye step
+        run : echo "Bye bye!"
+
+      
